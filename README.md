@@ -1,38 +1,57 @@
-### Description
+# 💼 My Portfolio
 
-A simple portfolio template for developer/designers built with React. 
+Este es mi portafolio personal desarrollado con **React.js**, donde presento mis proyectos, habilidades y experiencia profesional como desarrollador web.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+## 🚀 Tecnologías utilizadas
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+- React.js
+- HTML5
+- CSS3 / Tailwind CSS (si aplica)
+- JavaScript (ES6+)
+- Node.js (para entorno de desarrollo)
+- Vite / Webpack (dependiendo del bundler configurado)
 
-### Features
+## 📁 Estructura del proyecto
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+My-PORTFOLIO/
+│
+├── public/ # Archivos estáticos
+├── src/ # Código fuente principal
+├── .env # Variables de entorno
+├── .gitignore
+├── LICENSE
+├── README.md
+├── package.json
+├── package-lock.json / yarn.lock
 
-### Setup
+bash
+Copiar
+Editar
 
-Get the code
+## 📦 Instalación
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
+1. Clona este repositorio:
 
-<pre>yarn install</pre>
+```bash
+git clone https://github.com/21edclique/My-PORTFOLIO.git
+Ingresa a la carpeta del proyecto:
 
+bash
+Copiar
+Editar
+cd My-PORTFOLIO
+Instala las dependencias:
 
-Start the server
+bash
+Copiar
+Editar
+npm install
+▶️ Ejecutar el proyecto
+Para iniciar el servidor de desarrollo, ejecuta:
 
-<pre>yarn start</pre>
+bash
+Copiar
+Editar
+npm start
+Luego abre tu navegador en http://localhost:3000/ (o el puerto que indique la terminal).
 
-### More
-
-Modify pages content in  `src/content_option.js`.
-
-### Thanks
-
-If you like this portfolio template don't forget give it a ⭐ 
