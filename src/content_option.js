@@ -15,7 +15,7 @@ const introdata = {
   },
   description:
     "Passionate Full Stack Web Developer with expertise in modern web technologies. I specialize in creating end-to-end solutions that combine robust backend architectures with intuitive frontend experiences. ",
-  your_img_url: require("./images/me5.jpg"),
+  your_img_url: require("./images/me6.png"),
   
   
 };
