@@ -40,67 +40,73 @@ const skills = [
     // Frontend Technologies
     {
         name: "React/Next.js",
-        value: 95,
-        category: "Frontend"
+        // value: 95,
+        category: "Frontend",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
     },
     {
         name: "TypeScript",
-        value: 90,
-        category: "Frontend"
+        // value: 90,
+        category: "Frontend",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
     },
     {
         name: "Vue.js",
-        value: 80,
-        category: "Frontend"
+        // value: 80,
+        category: "Frontend",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
     },
     {
         name: "HTML5/CSS3",
-        value: 95,
-        category: "Frontend"
+        // value: 95,
+        category: "Frontend",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
     },
     {
         name: "Tailwind CSS",
-        value: 90,
-        category: "Frontend"
+        // value: 90,
+        category: "Frontend",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
     },
     
     // Backend Technologies
     {
         name: "Node.js/Express",
-        value: 90,
-        category: "Backend"
+        // value: 90,
+        category: "Backend",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
     },
     {
         name: "Python",
-        value: 80,
-        category: "Backend"
+        // value: 80,
+        category: "Backend",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
     },
     {
         name: "RESTful APIs",
-        value: 92,
-        category: "Backend"
+        // value: 92,
+        category: "Backend",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
     },
+   
+    // Database & DevOps   
     {
-        name: "GraphQL",
-        value: 75,
-        category: "Backend"
-    },
-    
-    // Database & DevOps
-       {
         name: "MySQL",
-        value: 95,
-        category: "Database"
+        // value: 95,
+        category: "Database",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
     },
     {
         name: "PostgreSQL/MongoDB",
-        value: 88,
-        category: "Database"
+        // value: 88,
+        category: "Database",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
     },
     {
         name: "Git",
-        value: 90,
-        category: "DevOps"
+        // value: 90,
+        category: "DevOps",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
     }
 ];
 

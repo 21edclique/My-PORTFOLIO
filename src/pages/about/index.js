@@ -62,8 +62,20 @@ export const About = () => {
           <Col lg="7">
             {skills.map((data, i) => {
               return (
-                <div key={i}>
-                  <h3 className="progress-title">{data.name}</h3>
+                <div key={i} className="skill-item">
+                  <div className="skill-header d-flex align-items-center mb-2">
+                    <img
+                      src={data.logo}
+                      alt={`${data.name} logo`}
+                      className="skill-logo me-3"
+                      style={{
+                        width: "24px",
+                        height: "24px",
+                        objectFit: "contain"
+                      }}
+                    />
+                    <h3 className="progress-title mb-0">{data.name}</h3>
+                  </div>
                   <div className="progress">
                     <div
                       className="progress-bar"
@@ -71,7 +83,7 @@ export const About = () => {
                         width: `${data.value}%`,
                       }}
                     >
-                      <div className="progress-value">{data.value}%</div>
+                      <div className="progress-value">{data.value}</div>
                     </div>
                   </div>
                 </div>
